@@ -1,3 +1,12 @@
 body {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.logo {
+  color: #000000;
+}
+
+.list {
+  list-style: none;
 }
