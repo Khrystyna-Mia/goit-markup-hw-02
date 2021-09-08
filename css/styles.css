@@ -1,3 +1,10 @@
+:root {
+  --title-text-color: #212121;
+  --text-color: #757575;
+  --white-color: #ffffff;
+  --accent-color: #2196f3;
+  --secondary-color: #2f303a;
+}
 body {
   background-color: #ffffff;
 }
@@ -17,17 +24,24 @@ body {
 
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Hero */
 .hero-title {
-  color: #ffffff;
+  color: var(--white-color);
+}
+
+/*  Button */
+.button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  cursor: pointer;
 }
 
 /* Section */
 .section-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 /* Features */
@@ -36,9 +50,10 @@ body {
 }
 
 .features list .text {
-  color: #757575;
+  color: var(--text-color);
 }
 
 /* Type of work */
 
-/*  */
+/* Стили для index.html */
+/* Стили для portfolio.html*/
