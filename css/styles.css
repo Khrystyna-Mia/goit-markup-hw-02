@@ -1,4 +1,5 @@
 :root {
+  --logo-color: #000000;
   --title-text-color: #212121;
   --text-color: #757575;
   --white-color: #ffffff;
@@ -16,7 +17,7 @@ body {
 
 /* Logo */
 .logo {
-  color: #000000;
+  color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -25,12 +26,12 @@ body {
 }
 
 .logo-text {
-  color: var(--accent-color);
+  color: var(--logo-color);
 }
 
 /* Site nav */
 .site-nav a {
-  color: #212121;
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.14;
@@ -42,7 +43,15 @@ body {
 }
 
 /* Link */
-.link {
+.link a {
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.link a:hover,
+.link a:focus {
+  color: var(--accent-color);
 }
 
 /*  Button */
@@ -51,22 +60,6 @@ body {
   color: var(--white-color);
   cursor: pointer;
 }
-
-/* Section */
-.section-title {
-  color: var(--title-text-color);
-}
-
-/* Features */
-.features list .title {
-  color: #212121;
-}
-
-.features list .text {
-  color: var(--text-color);
-}
-
-/* Type of work */
 
 /* Стили для index.html */
 
@@ -79,4 +72,52 @@ body {
   text-align: center;
 }
 
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Features */
+.features list .title {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.features list .text {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Type of work */
+
+/* Team */
+.team list .title {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+}
+.team list .text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.18;
+}
 /* Стили для portfolio.html*/
+
+/* Footer */
+.footer {
+  background-color: var(--secondary-color);
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-text {
+  color: var(--white-color);
+}
