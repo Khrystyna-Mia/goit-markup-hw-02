@@ -83,7 +83,7 @@ a {
   background-color: var(--accent-color);
   color: var(--white-color);
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
@@ -102,7 +102,6 @@ a {
 
 .features-text {
   color: var(--text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -131,13 +130,47 @@ a {
 
 .text {
   color: var(--text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
 }
 
 /* Стили для portfolio.html*/
+
+/* Portfolio buttons */
+.filter {
+  background-color: var(--background-color);
+  color: var(--title-color);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filter :hover,
+.filter :focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+/* Portfolio */
+.portfolio-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+portfolio-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
 
 /* Footer */
 footer {
